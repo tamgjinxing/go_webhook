@@ -73,7 +73,7 @@ func ParseWebhookDataAndCreated9735Event(bodyjson string) {
 		}
 
 		if len(needSendToRelays) > 0 {
-			// StartRelayConnections(needSendToRelays, eventString)
+			StartRelayConnections(needSendToRelays, eventString)
 		}
 	}
 }
